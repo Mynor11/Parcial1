@@ -1,0 +1,174 @@
+*{ padding: 0px;
+    margin: 0px;}
+    
+    body {
+      background:url(Img/img\ \(1\).jpg);
+       }
+    
+       header{
+        background:url(Img/img\ \(2\).jpg);
+        width: 100% ;
+        height: 105px;
+        padding-top: 10px;
+      }
+        
+        header > h1 { 
+        font-size:  50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: cornsilk;
+        text-align: center;
+        margin-bottom: 10px;
+        
+        display: inline-block;
+        margin-left: 100px;
+        }
+    
+    header > img {
+     
+        width: 100px;
+        height: 100px;
+        margin-left: 150px;
+        margin-top: 0px;
+        display:inline-block;
+        animation-name: logo;
+        animation-duration: .5s;    
+        }
+    
+    nav {
+        margin-top: 10px;
+        width: 90%;
+        height: 60px;
+        background:url(Img/img\ \(2\).jpg);
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 7px;  
+        }
+    
+    
+    nav > ul {
+        text-align: center;
+        padding-top: 20px;
+      }
+      
+      nav > ul > a{text-decoration: none; font-family: cursive;
+        color: cornsilk;
+        font-size:  20px;
+        padding: 20px;
+        }
+         nav > ul > a:hover {
+             transition:500ms;
+            background-color: rgb(74, 143, 233); 
+            color: white;
+            box-shadow: 0px 2px 2px greenyellow;
+          }
+
+            
+     /* contactos    */
+#Main { 
+  background:url(Img/img\ \(1\).jpg);
+  width:  80%;
+  height: 940px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+ 
+#seccion {
+    font-family: cursive;
+    margin-top: 45px;
+    width: 60%;
+    height: 910px;
+    background-color: darkgray;
+    /* margin-top: 10px; */
+    box-shadow:1px 1px 10px black;
+    display: inline-block;
+    }
+    article > img {
+        width: 180px;
+        height: 180px;
+        margin-left: 50px;
+        display: inline-block;
+    }
+
+      /* #seccion > a :hover{
+        transform: rotate(360deg) ;
+      } */
+    /* article > a> img :hover{
+      transform: rotate3d(360deg);
+    } */
+    /* #art3 {
+        display: inline-block;
+    } */
+    iframe {
+      width: 400px;
+      height: 400px;
+  }
+
+    aside {
+      float: right;
+      margin-top:  10px;
+      margin-right: 5%;
+         width: 20%;
+         height: 500px;
+         background-color: burlywood;
+         margin-left: 80px;
+    }
+    aside > ul > section {
+        width: 180px;
+        height: 210px;
+        margin-top: 10px;
+        background-color: cornsilk;
+    }
+    footer { 
+    margin-top: 20px;
+    background-color: rgb(199, 198, 198); 
+    width: 90%; 
+    clear: both;
+    color: rgb(3, 3, 0);
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    }
+
+/*----Logo animacion-----*/
+.animacion{
+  position: relative;
+  top: 0%;
+  left: 5%;
+  margin-top: 0px;
+  margin-left: 20px;
+
+  animation-name: logotipo;
+  animation-duration: .8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes logotipo {
+  from{
+      transform: scale(0.6); 
+  }
+  to{
+    transform: scale(0.7)
+  }
+}
+
+@keyframes rotacion {
+  from{
+transform: rotateX(-20deg) rotateY(0deg);
+}
+
+to{
+transform: rotateX(-20deg) rotateY(360deg);
+}
+
+}
+
+
+
+

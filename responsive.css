@@ -1,0 +1,731 @@
+
+
+    @media (max-width: 1290px){
+        header > h1 { 
+            font-size:  45px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: cornsilk;
+            text-align: center;
+            margin-bottom: 10px;
+            
+            display: inline-block;
+            margin-left: 100px;
+            }
+            #Main { 
+                background:url(Img/img\ \(1\).jpg);
+                width:  80%;
+                height: 570px;
+                margin-left: 5%;
+              }
+              /* __Imagenes efectos_ */
+              #seccion {
+                font-family: cursive;
+                  width: 60%;
+                  height: 500px;
+                  background-color: #ffff;
+                  margin-top: 30px;
+                  box-shadow:1px 1px 10px black;
+                  display: inline-block;
+                  }
+                  
+                  #Slider
+                  { 
+                      background-color: darkred;
+                      width: 500px;
+                      height: 280px;
+                      margin: auto;
+                      overflow: hidden;
+                  }
+                  #Slider > ul {
+                      padding: 0px;
+                      display: flex;
+                      width: 1200px;
+                      height: 375px;
+                      animation: cambio 10s infinite;
+                      
+                  }
+              
+                  #Slider li{ 
+                      list-style: none ;
+                      width: 500px;
+                  }
+                    #Slider ul > li > img { 
+                        width: 500px;
+                        height: 280px;
+                  }
+                  @keyframes cambio {
+                  0% {margin-left: 0px;}
+                  40% {margin-left: 0px;}
+              
+                  50% {margin-left: -500px;}
+                  80% {margin-left: -500px;}
+                  }
+    }
+    /* __Segundo cambio___ */
+    @media (max-width: 1195px){
+      
+        /* _Header__ */
+        header > h1 { 
+            font-size:  35px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: cornsilk;
+            text-align: center;
+            margin-bottom: 10px;
+            
+            display: inline-block;
+            margin-left: 100px;
+            }
+        
+      /* _Aside "barra lateral"__ */
+      aside {
+        font-family: cursive;
+        float: right;
+        margin-top:  30px;
+        margin-right: 5%;
+           width: 20%;
+           height: 350px;
+           background-color: #ffff;
+           margin-left: 80px;
+      }
+      aside > ul > section {
+          font-family: cursive;
+          width: 130px;
+          height: 200px;
+          margin-top: 10px;
+          background-color: #ffff;
+      }
+      aside > ul > section > ul > li {
+        font-family: cursive;
+        margin-top: 10px;
+        list-style: none;
+    }
+  
+  aside > ul > section> ul > li > a {
+    text-decoration: none; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        margin-top: 15px;
+        font-size:  13px;
+        padding: 10px;
+        }        
+  aside > ul > section > ul > li> a:hover {
+     transition:500ms;
+     background-color: rgb(87, 81, 81); 
+    color: white
+  }
+     
+    }
+    /* __Tercer cambio___ */
+    @media (max-width: 1100px){
+    
+       /* __Imagenes efectos_ */
+       #seccion {
+        font-family: cursive;
+          width: 60%;
+          height: 500px;
+          background-color: #ffff;
+          margin-top: 30px;
+          box-shadow:1px 1px 10px black;
+          display: inline-block;
+          }
+          
+          #Slider
+          { 
+              background-color: darkred;
+              width: 400px;
+              height: 250px;
+              margin: auto;
+              overflow: hidden;
+          }
+          #Slider > ul {
+              padding: 0px;
+              display: flex;
+              width: 1200px;
+              height: 375px;
+              animation: cambio 10s infinite;
+              
+          }
+      
+          #Slider li{ 
+              list-style: none ;
+              width: 400px;
+          }
+            #Slider ul > li > img { 
+                width: 400px;
+                height: 250px;
+          }
+          @keyframes cambio {
+          0% {margin-left: 0px;}
+          40% {margin-left: 0px;}
+      
+          50% {margin-left: -400px;}
+          80% {margin-left: -400px;}
+          }
+    
+    }
+    /* __Cuarto cambio___ */
+    @media (max-width: 1000px){
+    
+        /* _Header__ */
+        header > h1 { 
+            font-size:  25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: cornsilk;
+            text-align: center;
+            margin-bottom: 10px;
+            
+            display: inline-block;
+            margin-left: 100px;
+            }
+            #Main { 
+                background:url(Img/img\ \(1\).jpg);
+                width:  80%;
+                height: 570px;
+                margin-left: 5%;
+    }
+    /* __Nav__ */
+    
+    nav {
+        width: 90%;
+        height: 60px;
+        background:url(Img/img\ \(2\).jpg);
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 7px;  
+        }
+    
+    
+    nav > ul {
+        text-align: center;
+        padding-top: 15px;
+      }
+      
+      nav > ul > a{text-decoration: none; font-family: cursive;
+        color: cornsilk;
+        font-size:  15px;
+        padding: 15px;
+        }
+         nav > ul > a:hover {
+             transition:500ms;
+            background-color: rgb(74, 143, 233); 
+            color: white}
+    }
+    
+    /* __Quinto cambio___ */
+    @media (max-width: 900px){
+     /* _Imagenes Efectos_ */
+     #seccion {
+        font-family: cursive;
+          width: 60%;
+          height: 350px;
+          background-color: #ffff;
+          margin-top: 30px;
+          box-shadow:1px 1px 10px black;
+          display: inline-block;
+          }
+          
+          #Slider
+          { 
+              background-color: darkred;
+              width: 300px;
+              height: 187.5px;
+              margin: auto;
+              overflow: hidden;
+          }
+          #Slider > ul {
+              padding: 0px;
+              display: flex;
+              width: 1200px;
+              height: 375px;
+              animation: cambio 10s infinite;
+              
+          }
+      
+          #Slider li{ 
+              list-style: none ;
+              width: 300px;
+          }
+            #Slider ul > li > img { 
+                width: 300px;
+                height: 187.5px;
+          }
+          @keyframes cambio {
+          0% {margin-left: 0px;}
+          40% {margin-left: 0px;}
+      
+          50% {margin-left: -300px;}
+          80% {margin-left: -300px;}
+          }
+    
+          aside {
+            font-family: cursive;
+            float: right;
+            margin-top:  30px;
+            margin-right: 5%;
+               width: 20%;
+               height: 350px;
+               background-color: #ffff;
+               margin-left: 80px;
+          }
+          aside > ul > section {
+              font-family: cursive;
+              width: 100px;
+              height: 230px;
+              margin-top: 10px;
+              background-color: #ffff;
+          }
+          aside > ul > section > ul > li {
+            font-family: cursive;
+            margin-top: 10px;
+            list-style: none;
+        }
+        aside > h2 {
+            font-size: 20px;
+        }
+      
+      aside > ul > section> ul > li > a {
+        text-decoration: none; 
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: black;
+            margin-top: 15px;
+            font-size:  13px;
+            padding: 10px;
+            }        
+      aside > ul > section > ul > li> a:hover {
+         transition:500ms;
+         background-color: rgb(87, 81, 81); 
+        color: white
+      }
+    }
+
+    /* __Sextoo cambio___ */
+    @media (max-width: 800px){
+    
+        header > h1 { 
+            font-size:  20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: cornsilk;
+            text-align: center;
+            margin-bottom: 10px;
+            
+            display: inline-block;
+            margin-left: 100px;
+            }
+            #Main { 
+                background:url(Img/img\ \(1\).jpg);
+                width:  80%;
+                height: 570px;
+                margin-left: 5%;
+            }
+            /* __Nav__ */
+    
+    nav {
+        width: 85%;
+        height: 46px;
+        background:url(Img/img\ \(2\).jpg);
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 9px;  
+        }
+    
+    
+    nav > ul {
+        text-align: center;
+        padding-top: 12px;
+      }
+      
+      nav > ul > a{text-decoration: none; font-family: cursive;
+        color: cornsilk;
+        font-size:  12px;
+        padding: 12px;
+        }
+         nav > ul > a:hover {
+             transition:500ms;
+            background-color: rgb(74, 143, 233); 
+            color: white}
+    }
+    /* __Septimo cambio___ */
+    @media (max-width: 700px){
+  
+        #Main { 
+  background:url(Img/img\ \(1\).jpg);
+  width:  80%;
+  height: 970px;
+        }
+        #seccion {
+            font-family: cursive;
+              width: 80%;
+              height: 400px;
+              background-color: #ffff;
+              margin-top: 30px;
+              box-shadow:1px 1px 10px black;
+              display: inline-block;
+              }
+              #Slider
+              { 
+                  background-color: darkred;
+                  width: 300px;
+                  height: 200px;
+                  margin: auto;
+                  overflow: hidden;
+              }
+              #Slider > ul {
+                  padding: 0px;
+                  display: flex;
+                  width: 1200px;
+                  height: 375px;
+                  animation: cambio 10s infinite;
+                  
+              }
+          
+              #Slider li{ 
+                  list-style: none ;
+                  width: 300px;
+              }
+                #Slider ul > li > img { 
+                  width: 300px;
+                  height: 200px;
+              }
+              @keyframes cambio {
+              0% {margin-left: 0px;}
+              40% {margin-left: 0px;}
+          
+              50% {margin-left: -300px;}
+              80% {margin-left: -300px;}
+              }
+          
+              article > img {
+                  width: 180px;
+                  height: 180px;
+                  margin-left: 50px;
+                  display: inline-block;
+                  
+                  
+              }
+/* ________________________________________ */
+              aside {
+                font-family: cursive;
+                float: left;
+                margin-top:  30px;
+                   width: 30%;
+                   height: 350px;
+                   background-color: #ffff;
+                   margin-left: 80px;
+              }
+              aside > ul > section {
+                  font-family: cursive;
+                  width: 100px;
+                  height: 230px;
+                  margin-top: 10px;
+                  background-color: #ffff;
+              }
+              aside > ul > section > ul > li {
+                font-family: cursive;
+                margin-top: 10px;
+                list-style: none;
+            }
+            aside > h2 {
+                font-size: 20px;
+            }
+          
+          aside > ul > section> ul > li > a {
+            text-decoration: none; 
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: black;
+                margin-top: 15px;
+                font-size:  13px;
+                padding: 10px;
+                }        
+          aside > ul > section > ul > li> a:hover {
+             transition:500ms;
+             background-color: rgb(87, 81, 81); 
+            color: white
+          }
+
+    }
+               
+        @media (max-width: 450px){
+            header > h1 { 
+                font-size:  15px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: cornsilk;
+                text-align: center;
+                margin-bottom: 10px;
+                
+                display: inline-block;
+                margin-left: 100px;
+                }
+            header > img {
+             
+                width: 50px;
+                height: 50px;
+                margin-left: 50px;
+                margin-top: 0px;
+                display:inline-block;
+                animation-name: logo;
+                animation-duration: .5s;    
+                }
+            
+            nav {
+                margin-top: 10px;
+                width: 90%;
+                height: 60px;
+                background:url(Img/img\ \(2\).jpg);
+                margin-left: 5%;
+                margin-right: 5%;
+                border-radius: 7px;  
+                }
+            
+            
+            nav > ul {
+                text-align: center;
+                padding-top: 20px;
+              }
+              
+              nav > ul > a{text-decoration: none; font-family: cursive;
+                color: cornsilk;
+                font-size:  10px;
+                padding: 20px;
+                }
+                 nav > ul > a:hover {
+                     transition:500ms;
+                    background-color: rgb(74, 143, 233); 
+                    color: white;
+                    box-shadow: 0px 2px 2px greenyellow;
+                  }
+  /* ______________________________ */
+
+                  #seccion {
+                    font-family: cursive;
+                      width: 90%;
+                      height: 250px;
+                      background-color: #ffff;
+                      margin-top: 30px;
+                      box-shadow:1px 1px 10px black;
+                      display: inline-block;
+                      }
+                      #Slider
+                      { 
+                          background-color: darkred;
+                          width: 150px;
+                          height: 100px;
+                          margin: auto;
+                          overflow: hidden;
+                      }
+                      #Slider > ul {
+                          padding: 0px;
+                          display: flex;
+                          width: 1200px;
+                          height: 375px;
+                          animation: cambio 10s infinite;
+                          
+                      }
+                  
+                      #Slider li{ 
+                          list-style: none ;
+                          width: 150px;
+                      }
+                        #Slider ul > li > img { 
+                          width: 150px;
+                          height: 100px;
+                      }
+                      @keyframes cambio {
+                      0% {margin-left: 0px;}
+                      40% {margin-left: 0px;}
+                  
+                      50% {margin-left: -150px;}
+                      80% {margin-left: -150px;}
+                      }
+                  
+                      article > img {
+                          width: 180px;
+                          height: 180px;
+                          margin-left: 50px;
+                          display: inline-block;
+                          
+                          
+                      }
+        /* ________________________________________ */
+                      aside {
+                        font-family: cursive;
+                        float: left;
+                        margin-left: 150px;
+                        margin-top:  30px;
+                           width: 50%;
+                           height: 350px;
+                           background-color: #ffff;
+                           margin-left: 80px;
+                      }
+                      aside > ul > section {
+                          font-family: cursive;
+                          width: 150px;
+                          height: 230px;
+                          margin-top: 10px;
+                          background-color: #ffff;
+                      }
+                      aside > ul > section > ul > li {
+                        font-family: cursive;
+                        margin-top: 10px;
+                        list-style: none;
+                    }
+                    aside > h2 {
+                        font-size: 20px;
+                    }
+                  
+                  aside > ul > section> ul > li > a {
+                    text-decoration: none; 
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        color: black;
+                        margin-top: 15px;
+                        font-size:  13px;
+                        padding: 10px;
+                        }        
+                  aside > ul > section > ul > li> a:hover {
+                     transition:500ms;
+                     background-color: rgb(87, 81, 81); 
+                    color: white
+                  }
+           }
+           @media (max-width: 390px) {
+            header > h1 { 
+                font-size:  11px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: cornsilk;
+                text-align: center;
+                margin-bottom: 10px;
+                
+                display: inline-block;
+                margin-left: 100px;
+                }
+            header > img {
+             
+                width: 50px;
+                height: 50px;
+                margin-left: 50px;
+                margin-top: 0px;
+                display:inline-block;
+                animation-name: logo;
+                animation-duration: .5s;    
+                }
+            
+            nav {
+                margin-top: 10px;
+                width: 90%;
+                height: 60px;
+                background:url(Img/img\ \(2\).jpg);
+                margin-left: 5%;
+                margin-right: 5%;
+                border-radius: 7px;  
+                }
+            
+            
+            nav > ul {
+                text-align: center;
+                padding-top: 20px;
+              }
+              
+              nav > ul > a{text-decoration: none; font-family: cursive;
+                color: cornsilk;
+                font-size:  8px;
+                padding: 20px;
+                }
+                 nav > ul > a:hover {
+                     transition:500ms;
+                    background-color: rgb(74, 143, 233); 
+                    color: white;
+                    box-shadow: 0px 2px 2px greenyellow;
+                  }
+  /* ______________________________ */
+
+                  #seccion {
+                    font-family: cursive;
+                      width: 90%;
+                      height: 300px;
+                      background-color:#ffff;
+                      margin-top: 30px;
+                      box-shadow:1px 1px 10px black;
+                      display: inline-block;
+                      }
+                      #Slider
+                      { 
+                          background-color: darkred;
+                          width: 150px;
+                          height: 100px;
+                          margin: auto;
+                          overflow: hidden;
+                      }
+                      #Slider > ul {
+                          padding: 0px;
+                          display: flex;
+                          width: 1200px;
+                          height: 375px;
+                          animation: cambio 10s infinite;
+                          
+                      }
+                  
+                      #Slider li{ 
+                          list-style: none ;
+                          width: 150px;
+                      }
+                        #Slider ul > li > img { 
+                          width: 150px;
+                          height: 100px;
+                      }
+                      @keyframes cambio {
+                      0% {margin-left: 0px;}
+                      40% {margin-left: 0px;}
+                  
+                      50% {margin-left: -150px;}
+                      80% {margin-left: -150px;}
+                      }
+                  
+                      article > img {
+                          width: 180px;
+                          height: 180px;
+                          margin-left: 50px;
+                          display: inline-block;
+                          
+                          
+                      }
+        /* ________________________________________ */
+                      aside {
+                        font-family: cursive;
+                        float: left;
+                        margin-left: 150px;
+                        margin-top:  30px;
+                           width: 50%;
+                           height: 350px;
+                           background-color: #ffff;
+                           margin-left: 80px;
+                      }
+                      aside > ul > section {
+                          font-family: cursive;
+                          width: 120px;
+                          height: 230px;
+                          margin-top: 10px;
+                          background-color: #ffff; }
+                          
+                      aside > ul > section > ul > li {
+                        font-family: cursive;
+                        margin-top: 10px;
+                        list-style: none;
+                    }
+                    aside > h2 {
+                        font-size: 15px;
+                    }
+                  
+                  aside > ul > section> ul > li > a {
+                    text-decoration: none; 
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        color: black;
+                        margin-top: 15px;
+                        font-size:  10px;
+                        padding: 10px;
+                        }        
+                  aside > ul > section > ul > li> a:hover {
+                     transition:500ms;
+                     background-color: rgb(87, 81, 81); 
+                    color: white
+                  }
+
+           }
